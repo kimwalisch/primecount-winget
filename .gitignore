@@ -1,1 +1,2 @@
-inno-setup/primecount-*-win64*
+inno-setup/primecount-*-win-x64*
+inno-setup/*.exe
