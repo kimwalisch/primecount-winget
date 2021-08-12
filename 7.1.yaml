@@ -19,7 +19,7 @@ Installers:
 - Architecture: x64
   InstallerType: inno
   InstallerUrl: https://github.com/kimwalisch/primecount-winget/releases/download/v7.1/Primecount-7.1-win-x64.exe
-  InstallerSha256: 0d54faea7b5068e695b9a0a839f770ade2239b960f20d18236674ce16df96b65
+  InstallerSha256: a1d1e0b81d59a1e30b127da6b8f82d16bf756631fcec1050d5b6cbb65337c8a3
 PackageLocale: en-US
 ManifestType: singleton
 ManifestVersion: 1.0.0
