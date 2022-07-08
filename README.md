@@ -4,6 +4,6 @@ This repo is used to build an ```exe``` installer (using Inno Setup)
 for the [primecount](https://github.com/kimwalisch/primecount)
 command-line application for Windows x64.
 
-This repo also contains the primecount package manifest (```*.yaml```)
-for the winget package manager. The manifests must be submitted to
-https://github.com/microsoft/winget-pkgs.
+* Copy primecount binary to: `inno-setup/primecount-i.j-win-x64/primecount.exe`
+* Update version number in: `inno-setup/main.iss`
+* Open `inno-setup/main.iss` with the Inno Setup program and build the new installer.
