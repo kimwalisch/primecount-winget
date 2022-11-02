@@ -1,7 +1,7 @@
 #include "environment.iss"
 
 #define MyAppName "Primecount"
-#define MyAppVersion "7.4"
+#define MyAppVersion "7.5"
 #define MyAppPublisher "Kim Walisch"
 #define MyAppURL "https://github.com/kimwalisch/primecount"
 #define MyAppExeName "primecount.exe"
@@ -18,13 +18,13 @@ AppPublisherURL={#MyAppURL}
 AppSupportURL={#MyAppURL}
 AppUpdatesURL={#MyAppURL}
 DefaultDirName={autopf}\{#MyAppName}
-SetupIconFile=C:\Users\kimwa\OneDrive\Documents\GitHub\primecount-winget\inno-setup\primecount.ico
+SetupIconFile=C:\Users\kimwa\Documents\GitHub\primecount-winget\inno-setup\primecount.ico
 UninstallDisplayIcon={app}\primecount.ico
 DisableProgramGroupPage=yes
-LicenseFile=C:\Users\kimwa\OneDrive\Documents\GitHub\primecount-winget\inno-setup\primecount-{#MyAppVersion}-win-x64\COPYING
+LicenseFile=C:\Users\kimwa\Documents\GitHub\primecount-winget\inno-setup\primecount-{#MyAppVersion}-win-x64\COPYING
 ; Uncomment the following line to run in non administrative install mode (install for current user only.)
 ;PrivilegesRequired=lowest
-OutputDir=C:\Users\kimwa\OneDrive\Documents\GitHub\primecount-winget\inno-setup
+OutputDir=C:\Users\kimwa\Documents\GitHub\primecount-winget\inno-setup
 OutputBaseFilename={#MyAppName}-{#MyAppVersion}-win-x64
 Compression=lzma
 SolidCompression=yes
@@ -36,10 +36,10 @@ ChangesEnvironment=true
 Name: "english"; MessagesFile: "compiler:Default.isl"
 
 [Files]
-Source: "C:\Users\kimwa\OneDrive\Documents\GitHub\primecount-winget\inno-setup\primecount-{#MyAppVersion}-win-x64\primecount.exe"; DestDir: "{app}\bin"; Flags: ignoreversion
-Source: "C:\Users\kimwa\OneDrive\Documents\GitHub\primecount-winget\inno-setup\primecount-{#MyAppVersion}-win-x64\COPYING"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\kimwa\OneDrive\Documents\GitHub\primecount-winget\inno-setup\primecount-{#MyAppVersion}-win-x64\README.txt"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\kimwa\OneDrive\Documents\GitHub\primecount-winget\inno-setup\primecount.ico"; DestDir: "{app}"
+Source: "C:\Users\kimwa\Documents\GitHub\primecount-winget\inno-setup\primecount-{#MyAppVersion}-win-x64\primecount.exe"; DestDir: "{app}\bin"; Flags: ignoreversion
+Source: "C:\Users\kimwa\Documents\GitHub\primecount-winget\inno-setup\primecount-{#MyAppVersion}-win-x64\COPYING"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\kimwa\Documents\GitHub\primecount-winget\inno-setup\primecount-{#MyAppVersion}-win-x64\README.txt"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\kimwa\Documents\GitHub\primecount-winget\inno-setup\primecount.ico"; DestDir: "{app}"
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Code]
