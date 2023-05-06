@@ -18,13 +18,12 @@ AppPublisherURL={#MyAppURL}
 AppSupportURL={#MyAppURL}
 AppUpdatesURL={#MyAppURL}
 DefaultDirName={autopf}\{#MyAppName}
-SetupIconFile=C:\Users\kimwa\Documents\GitHub\primecount-winget\inno-setup\primecount.ico
+SetupIconFile=primecount.ico
 UninstallDisplayIcon={app}\primecount.ico
 DisableProgramGroupPage=yes
-LicenseFile=C:\Users\kimwa\Documents\GitHub\primecount-winget\inno-setup\primecount-{#MyAppVersion}-win-x64\COPYING
+LicenseFile=primecount-{#MyAppVersion}-win-x64\COPYING
 ; Uncomment the following line to run in non administrative install mode (install for current user only.)
 ;PrivilegesRequired=lowest
-OutputDir=C:\Users\kimwa\Documents\GitHub\primecount-winget\inno-setup
 OutputBaseFilename={#MyAppName}-{#MyAppVersion}-win-x64
 Compression=lzma
 SolidCompression=yes
@@ -36,10 +35,10 @@ ChangesEnvironment=true
 Name: "english"; MessagesFile: "compiler:Default.isl"
 
 [Files]
-Source: "C:\Users\kimwa\Documents\GitHub\primecount-winget\inno-setup\primecount-{#MyAppVersion}-win-x64\primecount.exe"; DestDir: "{app}\bin"; Flags: ignoreversion
-Source: "C:\Users\kimwa\Documents\GitHub\primecount-winget\inno-setup\primecount-{#MyAppVersion}-win-x64\COPYING"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\kimwa\Documents\GitHub\primecount-winget\inno-setup\primecount-{#MyAppVersion}-win-x64\README.txt"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\kimwa\Documents\GitHub\primecount-winget\inno-setup\primecount.ico"; DestDir: "{app}"
+Source: "primecount-{#MyAppVersion}-win-x64\primecount.exe"; DestDir: "{app}\bin"; Flags: ignoreversion
+Source: "primecount-{#MyAppVersion}-win-x64\COPYING"; DestDir: "{app}"; Flags: ignoreversion
+Source: "primecount-{#MyAppVersion}-win-x64\README.txt"; DestDir: "{app}"; Flags: ignoreversion
+Source: "primecount.ico"; DestDir: "{app}"
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Code]
