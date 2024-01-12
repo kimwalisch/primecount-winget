@@ -1,7 +1,7 @@
 #include "environment.iss"
 
 #define MyAppName "Primecount"
-#define MyAppVersion "7.9"
+#define MyAppVersion "7.10"
 #define MyAppPublisher "Kim Walisch"
 #define MyAppURL "https://github.com/kimwalisch/primecount"
 #define MyAppExeName "primecount.exe"
